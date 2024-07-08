@@ -36,7 +36,7 @@ class CalcUnitTests {
     @Order(4)
     void testCalcDivide()
     {
-        Assertions.assertEquals( 0 , divide(2, 2));
+        Assertions.assertEquals( 1 , divide(2, 2));
         System.out.println("=======testCalcDivide EXECUTED=======");
     }
 
