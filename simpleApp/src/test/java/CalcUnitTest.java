@@ -2,7 +2,7 @@ import org.junit.jupiter.api.*;
 import static org.example.SimpleCalc.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class CalcUnitTests {
+class CalcUnitTest {
 
     @Test
     @DisplayName("Add two numbers")
